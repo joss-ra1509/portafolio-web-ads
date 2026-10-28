@@ -4,12 +4,61 @@ body {
   background: #ffffff;
   color: #222222;
 }
+
 header, footer {
   background: #1f3864;
   color: #ffffff;
   padding: 1rem 2rem;
 }
-nav a { color: #ffffff; margin-right: 1rem; text-decoration: none; }
-main { padding: 2rem; max-width: 800px; margin: auto; }
-form { display: grid; gap: 0.5rem; max-width: 360px; }
-body.oscuro { background: #1e1e24; color: #eeeeee; }
+
+nav a {
+  color: #ffffff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+form {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 360px;
+}
+
+input,
+button {
+  padding: 0.6rem;
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#mensaje {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+body.oscuro {
+  background: #1e1e24;
+  color: #eeeeee;
+}
+
+body.oscuro input {
+  background: #2a2a32;
+  color: #eeeeee;
+  border: 1px solid #666666;
+}
