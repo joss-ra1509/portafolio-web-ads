@@ -9,4 +9,3 @@ Thumbs.db
 # Dependencias y registros
 node_modules/
 *.log
-```
